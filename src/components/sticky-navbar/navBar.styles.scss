@@ -1,0 +1,26 @@
+#navbar {
+  overflow: hidden;
+  background-color: #5d675b;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid #67aaf9;
+  z-index: 1;
+
+  .selections {
+    margin-left: 5%;
+
+    a {
+      float: left;
+      display: block;
+      color: #fafffd;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+      &:focus {
+        color: #67aaf9;
+      }
+    }
+  }
+}

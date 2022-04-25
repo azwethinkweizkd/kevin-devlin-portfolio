@@ -1,0 +1,31 @@
+html,
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#home {
+  height: calc(100vh);
+}
+
+.canvas {
+  background: linear-gradient(-45deg, #036d19, #9ce37d, #67aaf9, #3454d1);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

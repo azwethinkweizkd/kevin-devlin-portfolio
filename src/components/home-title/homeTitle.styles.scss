@@ -1,0 +1,15 @@
+.flex {
+  .text {
+    position: absolute;
+    top: 45%;
+    left: auto;
+    color: #fafffd;
+    font-size: 32pt;
+    line-height: 36pt;
+    text-align: center;
+    .highlight {
+      color: #ef2d56;
+      text-shadow: 3px 3px #5d675b;
+    }
+  }
+}
