@@ -1,4 +1,5 @@
 import React from "react";
+import SecTitle from "../../components/section-title/secTitle.component";
 import { Grid, Typography, Divider } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,9 +20,10 @@ import resume from "../../utils/Kevin-Devlin-Web-Development-Resume.pdf";
 
 import "./resume.styles.scss";
 
-export default function Resume() {
+export default function Resume({ title }) {
   return (
-    <>
+    <section id="resume">
+      <SecTitle title={title} />
       <Grid container className="grid">
         <Grid item>
           <FontAwesomeIcon
@@ -113,6 +115,6 @@ export default function Resume() {
           Download Resume
         </a>
       </Typography>
-    </>
+    </section>
   );
 }

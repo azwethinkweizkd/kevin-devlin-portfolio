@@ -1,5 +1,13 @@
+body {
+  background-color: #fafffd;
+}
+
 section {
   position: relative;
+}
+
+section:nth-of-type(n + 2) {
+  margin-top: 32px;
 }
 
 .flex {
