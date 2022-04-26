@@ -6,7 +6,7 @@ import "./home.styles.scss";
 
 export default function Home() {
   return (
-    <section id="home">
+    <section id="home" className="section">
       <div id="bgScreen" className="canvas">
         <canvas id="landingBg" height="auto" width="auto" />
       </div>

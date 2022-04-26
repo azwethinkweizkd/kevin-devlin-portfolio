@@ -21,7 +21,7 @@ export default function NavBar() {
           spy={true}
           smooth={true}
           duration={1000}
-          offset={-82}
+          offset={-88}
         >
           About
         </Link>
@@ -31,7 +31,7 @@ export default function NavBar() {
           spy={true}
           smooth={true}
           duration={1000}
-          offset={-82}
+          offset={-88}
         >
           Portfolio
         </Link>
@@ -41,7 +41,7 @@ export default function NavBar() {
           spy={true}
           smooth={true}
           duration={1000}
-          offset={-82}
+          offset={-88}
         >
           Resume
         </Link>

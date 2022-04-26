@@ -1,0 +1,134 @@
+$lightblue: #67aaf9;
+$white: #fafffd;
+$blue: #3454d1;
+
+.custom-btn {
+  width: 192px;
+  cursor: pointer;
+
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0.25em 0.5em;
+
+  // Using inset box-shadow instead of border for sizing simplicity
+  box-shadow: inset 0 0 0 4px $white;
+  color: $white;
+  font-weight: 700;
+
+  // Required, since we're setting absolute on pseudo-elements
+  position: relative;
+  vertical-align: middle;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover {
+    .arrow-icon {
+      transition: 0.25s;
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+    }
+  }
+
+  .btn-text {
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .arrow-icon {
+      font-size: 16px;
+      margin-left: 4px;
+    }
+  }
+}
+
+.draw {
+  transition: color 0.25s;
+
+  &::before,
+  &::after {
+    // Set border to invisible, so we don't see a 4px border on a 0x0 element before the transition starts
+    border: 6px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+  // This covers the top & right borders (expands right, then down)
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  // And this the bottom & left borders (expands left, then up)
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+
+  &:hover {
+    color: $lightblue;
+  }
+
+  // Hover styles
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover::before {
+    border-top-color: $lightblue; // Make borders visible
+    border-right-color: $lightblue;
+    transition: width 0.25s ease-out,
+      // Width expands first
+      height 0.25s ease-out 0.25s; // And then height
+  }
+
+  &:hover::after {
+    border-bottom-color: $lightblue; // Make borders visible
+    border-left-color: $lightblue;
+    transition: border-color 0s ease-out 0.5s,
+      // Wait for ::before to finish before showing border
+      width 0.25s ease-out 0.5s,
+      // And then exanding width
+      height 0.25s ease-out 0.75s; // And finally height
+  }
+}
+
+// Inherits from .draw
+.meet {
+  &:hover {
+    color: $blue;
+  }
+
+  // Start ::after in same position as ::before
+  &::after {
+    top: 0;
+    left: 0;
+  }
+
+  // Change colors
+  &:hover::before {
+    border-top-color: $blue;
+    border-right-color: $blue;
+  }
+
+  &:hover::after {
+    border-bottom-color: $blue;
+    border-left-color: $blue;
+    transition: // Animate height first, then width
+      height 0.25s ease-out, width 0.25s ease-out 0.25s;
+  }
+}

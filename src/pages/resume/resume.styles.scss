@@ -27,11 +27,14 @@
     }
   }
 }
+.hide {
+  display: none;
+}
 
 @media screen and (min-width: 1024px) {
   .icon {
     opacity: 0;
-    animation: dropIn 8s ease forwards;
+    animation: dropIn 3s ease forwards;
     /* animation-delay: calc(var(--order) * 200ms); */
   }
   @keyframes dropIn {

@@ -9,7 +9,7 @@ import "./aboutMe.styles.scss";
 
 export default function AboutMe({ title }) {
   return (
-    <section id="about">
+    <section id="about" className="section">
       <SecTitle title={title} />
       <Grid
         container

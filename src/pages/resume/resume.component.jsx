@@ -22,10 +22,10 @@ import "./resume.styles.scss";
 
 export default function Resume({ title }) {
   return (
-    <section id="resume">
+    <section id="resume" className="section">
       <SecTitle title={title} />
       <Grid container className="grid">
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faHtml5}
             className="icon"
@@ -33,10 +33,10 @@ export default function Resume({ title }) {
             size="10x"
           />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <JQueryIcon />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faJsSquare}
             style={{ color: "rgb(240, 219, 79)", order: 3 }}
@@ -44,7 +44,7 @@ export default function Resume({ title }) {
             size="10x"
           />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faNodeJs}
             style={{ color: "rgb(131, 205, 41)", order: 4 }}
@@ -54,7 +54,7 @@ export default function Resume({ title }) {
         </Grid>
       </Grid>
       <Grid container className="grid">
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faSass}
             style={{ color: "rgb(203, 102, 153)", order: 5 }}
@@ -62,7 +62,7 @@ export default function Resume({ title }) {
             size="10x"
           />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faCss3}
             style={{ color: "rgb(21, 114, 182)", order: 6 }}
@@ -70,7 +70,7 @@ export default function Resume({ title }) {
             size="10x"
           />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faBootstrap}
             style={{ color: "#9933CC", order: 7 }}
@@ -80,7 +80,7 @@ export default function Resume({ title }) {
         </Grid>
       </Grid>
       <Grid container className="grid">
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faGithubSquare}
             style={{ color: "rgb(243, 79, 41)", order: 8 }}
@@ -88,13 +88,13 @@ export default function Resume({ title }) {
             size="10x"
           />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <MySqlIcon />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <MongoDbIcon />
         </Grid>
-        <Grid item>
+        <Grid item className="grid-item">
           <FontAwesomeIcon
             icon={faReact}
             style={{ color: "rgb(97, 218, 251)", order: 11 }}

@@ -6,7 +6,7 @@ import "./contactMe.styles.scss";
 
 export default function ContactMe({ title }) {
   return (
-    <section id="contact-me">
+    <section id="contact-me" className="section">
       <SecTitle title={title} />
     </section>
   );

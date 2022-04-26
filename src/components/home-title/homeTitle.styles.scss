@@ -1,7 +1,7 @@
 .flex {
   .text {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: auto;
     color: #fafffd;
     font-size: 32pt;
@@ -11,5 +11,14 @@
       color: #ef2d56;
       text-shadow: 3px 3px #5d675b;
     }
+  }
+  .home-btn {
+    position: absolute;
+    left: auto;
+    top: 60%;
+    background-color: transparent;
+    font-size: 32pt;
+    line-height: 36pt;
+    text-align: center;
   }
 }

@@ -2,11 +2,11 @@ body {
   background-color: #fafffd;
 }
 
-section {
+.section {
   position: relative;
 }
 
-section:nth-of-type(n + 2) {
+.section:nth-of-type(n + 2) {
   margin-top: 32px;
 }
 
