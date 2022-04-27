@@ -18,7 +18,7 @@ export default function PortfolioCard({ projTitle, image, link, gh, desc }) {
     <Box className="container">
       <Box className="card" data-aos="flip-up">
         <Box className="proj-img-box">
-          <img src={image} alt="placeholder" />
+          <img src={process.env.PUBLIC_URL + image} alt="placeholder" />
         </Box>
         <Box className="content">
           <Typography variant="h3" className="proj-title">
