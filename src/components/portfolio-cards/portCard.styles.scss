@@ -1,26 +1,67 @@
 .card {
-  border: 4px solid black;
-  width: 20%;
-  margin-inline: auto;
-  border-radius: 16px;
-  margin-bottom: 12px;
+  position: relative;
+  max-width: 260px;
+  height: 150px;
+  background: #fafffd;
+  margin: 30px 75px;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
 
-  .main-grid-item {
-    width: 100%;
-    text-align: center;
-    background-color: #fafffd;
-    border-radius: 16px;
-    .proj-img {
-      width: 100%;
-      border-radius: 12px 12px 0 0;
-      object-fit: cover;
+  &:hover {
+    height: fit-content;
+
+    .content {
+      visibility: visible;
+      opacity: 1;
+      margin-top: -25px;
+      transition-delay: 0.3s;
     }
   }
 
-  .btn-group {
-    width: 100%;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-around;
+  .proj-img-box {
+    position: relative;
+    width: 260px;
+    height: 145px;
+    top: -55px;
+    left: auto;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+    img {
+      width: 260px;
+      object-fit: cover;
+      height: 175px;
+      border-radius: 4px;
+    }
+  }
+
+  .content {
+    position: relative;
+    margin-top: -140px;
+    text-align: center;
+    color: #0f0a0a;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+    .proj-title,
+    .proj-desc {
+      font-family: "Raleway", sans-serif;
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+
+    .tech {
+      text-decoration: underline;
+    }
+
+    .btn-group {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
   }
 }

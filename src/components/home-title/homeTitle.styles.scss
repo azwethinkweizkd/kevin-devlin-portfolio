@@ -1,8 +1,9 @@
-.flex {
+.home-title {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 50%;
   .text {
-    position: absolute;
-    top: 35%;
-    left: auto;
     color: #fafffd;
     font-size: 32pt;
     line-height: 36pt;
@@ -10,15 +11,10 @@
     .highlight {
       color: #ef2d56;
       text-shadow: 3px 3px #5d675b;
+      font-size: 38pt;
     }
   }
   .home-btn {
-    position: absolute;
-    left: auto;
-    top: 60%;
-    background-color: transparent;
-    font-size: 32pt;
-    line-height: 36pt;
-    text-align: center;
+    margin-top: 24px;
   }
 }
