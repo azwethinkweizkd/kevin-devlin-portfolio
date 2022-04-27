@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mon-star-rolo/static/css/main.ae5f3275.css",
-    "main.js": "/mon-star-rolo/static/js/main.942399e3.js",
-    "static/js/787.5b17bfeb.chunk.js": "/mon-star-rolo/static/js/787.5b17bfeb.chunk.js",
-    "static/media/Kevin-Devlin-Web-Development-Resume.pdf": "/mon-star-rolo/static/media/Kevin-Devlin-Web-Development-Resume.fc61d6a37b8fc54474d7.pdf",
-    "index.html": "/mon-star-rolo/index.html",
-    "main.ae5f3275.css.map": "/mon-star-rolo/static/css/main.ae5f3275.css.map",
-    "main.942399e3.js.map": "/mon-star-rolo/static/js/main.942399e3.js.map",
-    "787.5b17bfeb.chunk.js.map": "/mon-star-rolo/static/js/787.5b17bfeb.chunk.js.map"
+    "main.css": "/super-duper-broccoli/static/css/main.ae5f3275.css",
+    "main.js": "/super-duper-broccoli/static/js/main.b44901ad.js",
+    "static/js/787.5b17bfeb.chunk.js": "/super-duper-broccoli/static/js/787.5b17bfeb.chunk.js",
+    "static/media/Kevin-Devlin-Web-Development-Resume.pdf": "/super-duper-broccoli/static/media/Kevin-Devlin-Web-Development-Resume.fc61d6a37b8fc54474d7.pdf",
+    "index.html": "/super-duper-broccoli/index.html",
+    "main.ae5f3275.css.map": "/super-duper-broccoli/static/css/main.ae5f3275.css.map",
+    "main.b44901ad.js.map": "/super-duper-broccoli/static/js/main.b44901ad.js.map",
+    "787.5b17bfeb.chunk.js.map": "/super-duper-broccoli/static/js/787.5b17bfeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae5f3275.css",
-    "static/js/main.942399e3.js"
+    "static/js/main.b44901ad.js"
   ]
 }
