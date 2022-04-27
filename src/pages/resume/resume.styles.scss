@@ -32,22 +32,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .icon {
-    opacity: 0;
-    animation: dropIn 3s ease forwards;
-    /* animation-delay: calc(var(--order) * 200ms); */
-  }
-  @keyframes dropIn {
-    10% {
-      opacity: 0;
-      transform: translateY(-20%);
-    }
-    20%,
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
   @-webkit-keyframes fadeIn {
     from {
       opacity: 0;

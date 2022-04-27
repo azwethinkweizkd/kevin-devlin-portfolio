@@ -1,6 +1,6 @@
 [
   {
-    "title": "Adventure Time",
+    "projTitle": "Adventure Time",
     "image": "/images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg",
     "href": "https://adventure-time-with-friends.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/adventure-time",
@@ -8,49 +8,49 @@
   },
 
   {
-    "title": "Simple & Sinister Fitness Tracker",
+    "projTitle": "Simple & Sinister Fitness Tracker",
     "image": "/images/samuel-girven-VJ2s0c20qCo-unsplash.jpg",
     "href": "https://sim-and-sin-fit-track.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/SimpleAndSinisterTracker",
     "desc": "HTML/CSS/JS/MongoDB"
   },
   {
-    "title": "CodeTech ChitChat",
+    "projTitle": "CodeTech ChitChat",
     "image": "/images/christin-hume-Hcfwew744z4-unsplash.jpg",
     "href": "https://code-tech-chit-chat.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/codeTechChitChat",
     "desc": "HTML/Handlebars/CSS/Vanilla JS/SQL"
   },
   {
-    "title": "Kitchen Forager",
+    "projTitle": "Kitchen Forager",
     "image": "/images/katie-smith-uQs1802D0CQ-unsplash.jpg",
     "href": "https://kitchenforager.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/kitchenForager",
     "desc": "HTML/Handlebars/CSS/Vanilla JS/SQL"
   },
   {
-    "title": "Colorado 14er Quiz",
+    "projTitle": "Colorado 14er Quiz",
     "image": "/images/vincent-ledvina-a1SAq0v6AyY-unsplash.jpg",
     "href": "https://azwethinkweizkd.github.io/High-Altitude-CO-14er-Quiz/",
     "gh": "https://github.com/azwethinkweizkd/High-Altitude-CO-14er-Quiz",
     "desc": "HTML/CSS/Vanilla JS"
   },
   {
-    "title": "Weather App",
+    "projTitle": "Weather App",
     "image": "/images/sigmund-GfMkWvgn1PM-unsplash.jpg",
     "href": "https://azwethinkweizkd.github.io/US-Weather-Tracker-Dashboard/",
     "gh": "https://github.com/azwethinkweizkd/US-Weather-Tracker-Dashboard",
     "desc": "HTML/CSS/Vanilla JS"
   },
   {
-    "title": "Note Taker",
+    "projTitle": "Note Taker",
     "image": "/images/david-travis-5bYxXawHOQg-unsplash.jpg",
     "href": "https://express-js-note-taker-kd.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/Express.jsNoteTaker",
     "desc": "Express.js/HTML/CSS"
   },
   {
-    "title": "Choose your pokemon",
+    "projTitle": "Choose your pokemon",
     "image": "/images/thimo-pedersen-TWCnHKKhqSo-unsplash.jpg",
     "href": "https://bonilhav.github.io/Choose_Your_Pokemon/",
     "gh": "https://github.com/azwethinkweizkd/Choose_Your_Pokemon",

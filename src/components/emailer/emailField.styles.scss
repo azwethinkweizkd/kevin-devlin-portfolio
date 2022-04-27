@@ -1,0 +1,19 @@
+.emailer {
+  width: 45%;
+  margin-inline: auto;
+  text-align: center;
+
+  .email-msg {
+    color: #3453d1;
+  }
+
+  .email-form {
+    width: 100%;
+    display: block;
+
+    input {
+      font-family: "Raleway", sans-serif;
+      font-size: 12pt;
+    }
+  }
+}

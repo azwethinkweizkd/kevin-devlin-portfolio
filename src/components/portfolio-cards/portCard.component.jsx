@@ -9,10 +9,9 @@ import WebIcon from "@mui/icons-material/Web";
 
 import "./portCard.styles.scss";
 
-export default function PortfolioCard({ title, image, link, gh, desc }) {
-  console.log(title, image, link, gh, desc);
+export default function PortfolioCard({ projTitle, image, link, gh, desc }) {
   useEffect(() => {
-    Aos.init({ duration: 750 });
+    Aos.init({ duration: 5000 });
   }, []);
 
   return (
@@ -23,7 +22,7 @@ export default function PortfolioCard({ title, image, link, gh, desc }) {
         </Box>
         <Box className="content">
           <Typography variant="h3" className="proj-title">
-            {title}
+            {projTitle}
           </Typography>
           <Typography variant="p" className="tech">
             Tech Used: <br />
@@ -33,10 +32,10 @@ export default function PortfolioCard({ title, image, link, gh, desc }) {
           </Typography>
           <Box className="btn-group">
             <IconButton href={gh} target="_blank" rel="noreferrer noopener">
-              <GitHubIcon />
+              <GitHubIcon className="iconBtn" />
             </IconButton>
             <IconButton href={link} target="_blank" rel="noreferrer noopener">
-              <WebIcon />
+              <WebIcon className="iconBtn" />
             </IconButton>
           </Box>
         </Box>

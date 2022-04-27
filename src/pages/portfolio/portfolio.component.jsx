@@ -10,15 +10,14 @@ import projInfo from "../../utils/projInfo.json";
 import "./portfolio.styles.scss";
 
 export default function Portfolio({ title }) {
-  console.log(projInfo);
   return (
     <section id="portfolio" className="section">
       <SecTitle title={title} />
       <Box className="card-container">
-        {projInfo.map(({ title, image, href, gh, desc }) => {
+        {projInfo.map(({ projTitle, image, href, gh, desc }) => {
           return (
             <PortfolioCard
-              title={title}
+              projTitle={projTitle}
               image={image}
               link={href}
               gh={gh}
