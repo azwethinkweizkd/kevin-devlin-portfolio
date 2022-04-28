@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import validator from "validator";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -12,6 +14,9 @@ import "./emailField.styles.scss";
 
 export default function ContactMe() {
   const [emailError, setEmailError] = useState("");
+  useEffect(() => {
+    Aos.init({ duration: 750 });
+  }, []);
   const validateEmail = (e) => {
     var email = e.target.value;
 
@@ -51,6 +56,7 @@ export default function ContactMe() {
         noValidate
         autoComplete="off"
         onSubmit={handleEmailSend}
+        data-aos="zoom-in"
       >
         <Box
           sx={{

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { Box, Typography, Grid } from "@mui/material/";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -7,8 +9,11 @@ import EmailIcon from "@mui/icons-material/Email";
 import "./contactInfo.styles.scss";
 
 export default function ContactInfo() {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   return (
-    <Box className="contact-info-box">
+    <Box className="contact-info-box" data-aos="fade-right">
       <Grid
         container
         direction="column"

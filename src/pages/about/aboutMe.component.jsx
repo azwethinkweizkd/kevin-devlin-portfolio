@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { Typography, Grid } from "@mui/material";
 
@@ -8,6 +10,9 @@ import SecTitle from "../../components/section-title/secTitle.component";
 import "./aboutMe.styles.scss";
 
 export default function AboutMe({ title }) {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   return (
     <section id="about" className="section">
       <SecTitle title={title} />
@@ -21,7 +26,7 @@ export default function AboutMe({ title }) {
           <Headshot />
         </Grid>
         <Grid item xs={12} sm={12} md={8}>
-          <Typography paragraph className="paragraph">
+          <Typography paragraph className="paragraph" data-aos="fade-left">
             Full Stack Web Developer with a background in CAD design and 3D
             Printing manufacturing. Recently earned a certificate in Full Stack
             Web Development Coding Bootcamp from the University of Denver, with
