@@ -7,15 +7,15 @@ html,
 
 #home {
   height: calc(100vh);
-}
 
-.canvas {
-  background: linear-gradient(-45deg, #35012c, #a55fc2, #67aaf9, #3454d1);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  position: absolute;
-  left: 0;
-  top: 0;
+  .canvas {
+    background: linear-gradient(-45deg, #35012c, #a55fc2, #67aaf9, #3454d1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 }
 
 @keyframes gradient {
@@ -27,5 +27,30 @@ html,
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #home {
+    .canvas {
+      width: 425px;
+      height: 100vh;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  #home {
+    .canvas {
+      width: 375px;
+      height: 585px;
+    }
+  }
+}
+@media screen and (max-width: 321px) {
+  #home {
+    .canvas {
+      width: 100%;
+      height: 100%;
+    }
   }
 }

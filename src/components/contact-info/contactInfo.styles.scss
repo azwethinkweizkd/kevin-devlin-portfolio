@@ -17,3 +17,15 @@
     color: #0f0a0a;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .contact-info-box {
+    width: 75%;
+    padding: 12px 8px;
+
+    .contact-info {
+      font-size: large;
+      padding: 8px;
+    }
+  }
+}

@@ -135,3 +135,11 @@ $blue: #3454d1;
       height 0.25s ease-out, width 0.25s ease-out 0.25s;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .custom-btn {
+    width: 154px;
+    font-size: 16pt;
+    line-height: 36pt;
+  }
+}

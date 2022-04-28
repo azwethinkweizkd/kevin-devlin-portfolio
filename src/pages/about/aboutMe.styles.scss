@@ -2,3 +2,9 @@
   padding: 48px;
   text-align: center;
 }
+
+@media screen and (max-width: 426px) {
+  .paragraph {
+    padding: 16px;
+  }
+}

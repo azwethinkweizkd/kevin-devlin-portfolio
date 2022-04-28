@@ -29,3 +29,26 @@
     color: #67aaf9;
   }
 }
+
+@media screen and (max-width: 426px) {
+  #navbar {
+    .selections {
+      margin-left: 0%;
+      a {
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+  #navbar {
+    width: 376px;
+    .selections {
+      a {
+        text-decoration: none;
+        font-size: 12px;
+      }
+    }
+  }
+}
