@@ -51,7 +51,7 @@ export default function NavBar() {
           spy={true}
           smooth={true}
           duration={1000}
-          offset={-82}
+          offset={-88}
         >
           Contact
         </Link>
