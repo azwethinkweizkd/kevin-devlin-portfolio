@@ -17,20 +17,6 @@
   transition: 0.25s ease-in-out;
   z-index: 2;
 
-  &:hover {
-    height: fit-content;
-    .selections-mobile {
-      visibility: visible;
-      margin-top: 0px;
-      transition-delay: 0s;
-
-      .dropdown-icon {
-        visibility: visible;
-        transition-delay: 2s;
-      }
-    }
-  }
-
   .mobile-nav-icon {
     color: #fafffd;
     font-size: 32px;
@@ -38,26 +24,52 @@
 
   .selections-mobile {
     position: relative;
-    margin-top: -192px;
     text-align: center;
     visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.25s ease-in-out;
 
-    .dropdown-icon {
-      visibility: hidden;
+    button {
+      .dropdown-icon {
+        visibility: collapse;
+      }
     }
 
     .selections-mobile > .active {
       color: #67aaf9;
     }
   }
+
+  .hide {
+    visibility: collapse;
+    margin-top: -192px;
+    transition: 0.25s ease-in-out;
+
+    button {
+      .dropdown-icon {
+        visibility: collapse;
+      }
+    }
+  }
+
+  .show {
+    visibility: visible;
+    margin-top: 0px;
+    transition: 0.25s ease-in-out;
+
+    button {
+      .dropdown-icon {
+        visibility: visible;
+        transition: 0.5s ease-in;
+        transition-delay: 0.15s;
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 509px) {
+@media screen and (max-width: 426px) {
   .mobile-nav {
     visibility: visible;
     margin-top: 16px;

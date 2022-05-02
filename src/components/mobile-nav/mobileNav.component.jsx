@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll/modules";
 
 import { IconButton } from "@mui/material/";
@@ -13,12 +13,19 @@ import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact
 import "./mobileNav.styles.scss";
 
 export default function MobileNav() {
+  const [open, setOpen] = useState(false);
+
+  const handleOpenClose = (e) => {
+    e.preventDefault();
+    setOpen(!open);
+    console.log(open);
+  };
   return (
     <div className="mobile-nav">
-      <IconButton>
+      <IconButton onClick={handleOpenClose}>
         <MenuOpenIcon id="menu-open-icon" className="mobile-nav-icon" />
       </IconButton>
-      <div className="selections-mobile">
+      <div className={`selections-mobile  ${!open ? "show" : "hide"}`}>
         <Link
           activeClass="active"
           to="about"
