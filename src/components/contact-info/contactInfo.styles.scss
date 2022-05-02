@@ -29,6 +29,14 @@
     }
   }
 }
+@media screen and (max-width: 378px) {
+  .contact-info-box {
+    .contact-info {
+      font-size: smaller;
+      padding: 4px;
+    }
+  }
+}
 @media screen and (max-width: 321px) {
   .contact-info-box {
     .contact-info {
