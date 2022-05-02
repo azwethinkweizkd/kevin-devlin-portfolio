@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kevin-devlin-portfolio/static/css/main.2824a5c4.css",
+    "main.css": "/kevin-devlin-portfolio/static/css/main.fa104fa7.css",
     "main.js": "/kevin-devlin-portfolio/static/js/main.1bd64b07.js",
     "static/js/787.5b17bfeb.chunk.js": "/kevin-devlin-portfolio/static/js/787.5b17bfeb.chunk.js",
     "static/media/Kevin-Devlin-Web-Development-Resume.pdf": "/kevin-devlin-portfolio/static/media/Kevin-Devlin-Web-Development-Resume.2dd7e64aef510ffaf9b4.pdf",
     "index.html": "/kevin-devlin-portfolio/index.html",
-    "main.2824a5c4.css.map": "/kevin-devlin-portfolio/static/css/main.2824a5c4.css.map",
+    "main.fa104fa7.css.map": "/kevin-devlin-portfolio/static/css/main.fa104fa7.css.map",
     "main.1bd64b07.js.map": "/kevin-devlin-portfolio/static/js/main.1bd64b07.js.map",
     "787.5b17bfeb.chunk.js.map": "/kevin-devlin-portfolio/static/js/787.5b17bfeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2824a5c4.css",
+    "static/css/main.fa104fa7.css",
     "static/js/main.1bd64b07.js"
   ]
 }
