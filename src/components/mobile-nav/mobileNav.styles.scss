@@ -38,7 +38,9 @@
     }
 
     .selections-mobile > .active {
-      color: #67aaf9;
+      .dropdown-icon {
+        color: #67aaf9;
+      }
     }
   }
 
