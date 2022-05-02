@@ -18,14 +18,13 @@ export default function MobileNav() {
   const handleOpenClose = (e) => {
     e.preventDefault();
     setOpen(!open);
-    console.log(open);
   };
   return (
     <div className="mobile-nav">
       <IconButton onClick={handleOpenClose}>
         <MenuOpenIcon id="menu-open-icon" className="mobile-nav-icon" />
       </IconButton>
-      <div className={`selections-mobile  ${!open ? "show" : "hide"}`}>
+      <div className={`selections-mobile  ${!open ? "hide" : "show"}`}>
         <Link
           activeClass="active"
           to="about"
