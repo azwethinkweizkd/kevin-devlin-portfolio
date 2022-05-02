@@ -30,6 +30,42 @@ html,
   }
 }
 
+@media screen and (max-width: 502px) {
+  #home {
+    height: 325px;
+    .canvas {
+      width: 100%;
+      height: 325px;
+    }
+  }
+}
+@media screen and (max-width: 488px) {
+  #home {
+    height: 200px;
+    .canvas {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+@media screen and (max-width: 454px) {
+  #home {
+    height: 178px;
+    .canvas {
+      width: 100%;
+      height: 178px;
+    }
+  }
+}
+@media screen and (max-width: 443px) {
+  #home {
+    height: 162px;
+    .canvas {
+      width: 100%;
+      height: 162px;
+    }
+  }
+}
 @media screen and (max-width: 426px) {
   #home {
     height: 156px;
