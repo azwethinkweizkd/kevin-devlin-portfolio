@@ -70,3 +70,18 @@
     }
   }
 }
+
+@media screen and (max-width: 376px) {
+  .card {
+    max-width: 208px;
+
+    .proj-img-box {
+      position: relative;
+      width: 208px;
+      img {
+        width: 208px;
+        object-fit: cover;
+      }
+    }
+  }
+}

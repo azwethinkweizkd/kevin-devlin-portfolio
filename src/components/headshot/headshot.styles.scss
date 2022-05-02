@@ -53,3 +53,26 @@
   -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
   clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
+
+@media screen and (max-width: 426px) {
+  .hex {
+    width: 275px;
+    height: 238.15px; /* width * 0.866 */
+  }
+
+  .hex-background {
+    width: 271px;
+    height: 234.15px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .hex {
+    width: 225px;
+    height: 194.85px; /* width * 0.866 */
+  }
+
+  .hex-background {
+    width: 221px;
+    height: 190.85px;
+  }
+}

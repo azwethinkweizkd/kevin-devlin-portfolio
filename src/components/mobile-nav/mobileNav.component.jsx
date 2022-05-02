@@ -1,0 +1,73 @@
+import React from "react";
+import { Link } from "react-scroll/modules";
+
+import { IconButton } from "@mui/material/";
+
+import MenuOpenIcon from "@mui/icons-material/MenuOpen";
+
+import InfoIcon from "@mui/icons-material/Info";
+import WorkIcon from "@mui/icons-material/Work";
+import ArticleIcon from "@mui/icons-material/Article";
+import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
+
+import "./mobileNav.styles.scss";
+
+export default function MobileNav() {
+  return (
+    <div className="mobile-nav">
+      <IconButton>
+        <MenuOpenIcon id="menu-open-icon" className="mobile-nav-icon" />
+      </IconButton>
+      <div className="selections-mobile">
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={1000}
+          offset={-88}
+        >
+          <IconButton>
+            <InfoIcon className="mobile-nav-icon dropdown-icon" />
+          </IconButton>
+        </Link>
+        <Link
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          duration={1000}
+          offset={-88}
+        >
+          <IconButton>
+            <WorkIcon className="mobile-nav-icon dropdown-icon" />
+          </IconButton>
+        </Link>
+        <Link
+          activeClass="active"
+          to="resume"
+          spy={true}
+          smooth={true}
+          duration={1000}
+          offset={-88}
+        >
+          <IconButton>
+            <ArticleIcon className="mobile-nav-icon dropdown-icon" />
+          </IconButton>
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact-me"
+          spy={true}
+          smooth={true}
+          duration={1000}
+          offset={-88}
+        >
+          <IconButton>
+            <ConnectWithoutContactIcon className="mobile-nav-icon dropdown-icon" />
+          </IconButton>
+        </Link>
+      </div>
+    </div>
+  );
+}

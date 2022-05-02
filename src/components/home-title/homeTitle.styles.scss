@@ -40,5 +40,33 @@
         font-size: 20pt;
       }
     }
+    .home-btn {
+      visibility: hidden;
+      margin-top: -24px - 58.65px;
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+  .home-title {
+    .text {
+      font-size: 12pt;
+      line-height: 16pt;
+
+      .highlight {
+        font-size: 18pt;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .home-title {
+    .text {
+      font-size: 10pt;
+      line-height: 14pt;
+
+      .highlight {
+        font-size: 16pt;
+      }
+    }
   }
 }

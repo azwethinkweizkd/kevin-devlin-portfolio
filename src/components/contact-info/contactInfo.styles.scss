@@ -29,3 +29,11 @@
     }
   }
 }
+@media screen and (max-width: 321px) {
+  .contact-info-box {
+    .contact-info {
+      font-size: smaller;
+      padding: 4px;
+    }
+  }
+}

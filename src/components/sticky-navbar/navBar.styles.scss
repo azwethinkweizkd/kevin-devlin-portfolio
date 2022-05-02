@@ -32,6 +32,8 @@
 
 @media screen and (max-width: 426px) {
   #navbar {
+    visibility: hidden;
+    margin-top: -51px;
     .selections {
       margin-left: 0%;
       a {
@@ -43,11 +45,26 @@
 }
 @media screen and (max-width: 376px) {
   #navbar {
-    width: 376px;
+    visibility: hidden;
+    margin-top: -93px;
     .selections {
+      margin-left: 0%;
       a {
         text-decoration: none;
-        font-size: 12px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 321px) {
+  #navbar {
+    visibility: hidden;
+    margin-top: -78px;
+    .selections {
+      margin-left: 0%;
+      a {
+        text-decoration: none;
+        font-size: 14px;
       }
     }
   }

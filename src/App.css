@@ -16,3 +16,19 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+.main-sections-div {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 426px) {
+  .section:nth-of-type(n + 2) {
+    margin-top: 0px;
+  }
+
+  .main-sections-div > .main-sections {
+    overflow-x: hidden;
+    justify-content: center;
+  }
+}
