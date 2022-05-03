@@ -92,7 +92,6 @@ export default function ContactMe() {
             placeholder="Your message here"
             multiline
             minRows={12}
-            justifyContent="flex-start"
             name="msgInput"
             margin="normal"
           ></TextField>

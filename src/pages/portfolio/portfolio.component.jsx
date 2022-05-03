@@ -14,9 +14,10 @@ export default function Portfolio({ title }) {
     <section id="portfolio" className="section">
       <SecTitle title={title} />
       <Box className="card-container">
-        {projInfo.map(({ projTitle, image, href, gh, desc }) => {
+        {projInfo.map(({ projTitle, image, href, gh, desc, id }) => {
           return (
             <PortfolioCard
+              key={id}
               projTitle={projTitle}
               image={image}
               link={href}
