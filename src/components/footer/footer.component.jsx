@@ -15,14 +15,14 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <GitHubIcon className="icon-btn-footer" />
+          <GitHubIcon className="icon-btn-footer" id="github" />
         </IconButton>
         <IconButton
           href="https://www.linkedin.com/in/kevin-devlin-b67b3a7a/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          <LinkedInIcon className="icon-btn-footer" />
+          <LinkedInIcon className="icon-btn-footer" id="linkedIn" />
         </IconButton>
       </div>
       <h4>Kevin Devlin - &copy; {new Date().getFullYear()}</h4>

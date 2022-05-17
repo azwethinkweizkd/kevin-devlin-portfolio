@@ -9,7 +9,8 @@ import WebIcon from "@mui/icons-material/Web";
 
 import "./portCard.styles.scss";
 
-export default function PortfolioCard({ projTitle, image, link, gh, desc }) {
+export default function PortfolioCard({ project }) {
+  const { projTitle, image, link, gh, desc } = project;
   useEffect(() => {
     Aos.init({ duration: 5000 });
   }, []);
