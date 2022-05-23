@@ -10,7 +10,7 @@ import WebIcon from "@mui/icons-material/Web";
 import "./portCard.styles.scss";
 
 export default function PortfolioCard({ project }) {
-  const { projTitle, image, link, gh, desc } = project;
+  const { projTitle, image, href, gh, desc } = project;
   useEffect(() => {
     Aos.init({ duration: 5000 });
   }, []);
@@ -41,7 +41,7 @@ export default function PortfolioCard({ project }) {
               <GitHubIcon className="iconBtn" />
             </IconButton>
             <IconButton
-              href={link}
+              href={href}
               target="_blank"
               rel="noreferrer noopener"
               disableRipple
