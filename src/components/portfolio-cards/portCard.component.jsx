@@ -32,10 +32,20 @@ export default function PortfolioCard({ project }) {
             {desc}
           </Typography>
           <Box className="btn-group">
-            <IconButton href={gh} target="_blank" rel="noreferrer noopener">
+            <IconButton
+              href={gh}
+              target="_blank"
+              rel="noreferrer noopener"
+              disableRipple
+            >
               <GitHubIcon className="iconBtn" />
             </IconButton>
-            <IconButton href={link} target="_blank" rel="noreferrer noopener">
+            <IconButton
+              href={link}
+              target="_blank"
+              rel="noreferrer noopener"
+              disableRipple
+            >
               <WebIcon className="iconBtn" />
             </IconButton>
           </Box>

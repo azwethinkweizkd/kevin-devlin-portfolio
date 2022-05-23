@@ -14,6 +14,7 @@ export default function Footer() {
           href="https://github.com/azwethinkweizkd"
           target="_blank"
           rel="noreferrer noopener"
+          disableRipple
         >
           <GitHubIcon className="icon-btn-footer" id="github" />
         </IconButton>
@@ -21,6 +22,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/kevin-devlin-b67b3a7a/"
           target="_blank"
           rel="noreferrer noopener"
+          disableRipple
         >
           <LinkedInIcon className="icon-btn-footer" id="linkedIn" />
         </IconButton>

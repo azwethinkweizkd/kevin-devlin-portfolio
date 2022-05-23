@@ -21,7 +21,7 @@ export default function MobileNav() {
   };
   return (
     <div className="mobile-nav">
-      <IconButton onClick={handleOpenClose}>
+      <IconButton onClick={handleOpenClose} disableRipple>
         <MenuOpenIcon id="menu-open-icon" className="mobile-nav-icon" />
       </IconButton>
       <div className={`selections-mobile  ${!open ? "hide" : "show"}`}>
@@ -33,7 +33,7 @@ export default function MobileNav() {
           duration={1000}
           offset={-88}
         >
-          <IconButton>
+          <IconButton disableRipple>
             <InfoIcon className="mobile-nav-icon dropdown-icon" />
           </IconButton>
         </Link>
@@ -45,7 +45,7 @@ export default function MobileNav() {
           duration={1000}
           offset={-88}
         >
-          <IconButton>
+          <IconButton disableRipple>
             <WorkIcon className="mobile-nav-icon dropdown-icon" />
           </IconButton>
         </Link>
@@ -57,7 +57,7 @@ export default function MobileNav() {
           duration={1000}
           offset={-88}
         >
-          <IconButton>
+          <IconButton disableRipple>
             <ArticleIcon className="mobile-nav-icon dropdown-icon" />
           </IconButton>
         </Link>
@@ -69,7 +69,7 @@ export default function MobileNav() {
           duration={1000}
           offset={-88}
         >
-          <IconButton>
+          <IconButton disableRipple>
             <ConnectWithoutContactIcon className="mobile-nav-icon dropdown-icon" />
           </IconButton>
         </Link>
