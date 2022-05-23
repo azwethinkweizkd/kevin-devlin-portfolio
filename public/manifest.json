@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kevin Devlin - Portfolio",
+  "name": "Kevin Devlin - Full Stack Web Devloper Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,49 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "images/christin-hume-Hcfwew744z4-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "5616 x 3744"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "images/david-travis-5bYxXawHOQg-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "4608 x 3072"
+    },
+    {
+      "src": "images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "1920 x 1280"
+    },
+    {
+      "src": "images/katie-smith-uQs1802D0CQ-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "2428 x 2428"
+    },
+    {
+      "src": "images/professional-photo.jpg",
+      "type": "image/jpg",
+      "sizes": "1199 x 1073"
+    },
+    {
+      "src": "images/samuel-girven-VJ2s0c20qCo-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "4000 x 6000"
+    },
+    {
+      "src": "images/sigmund-GfMkWvgn1PM-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "2880 x 2654"
+    },
+    {
+      "src": "images/thimo-pedersen-TWCnHKKhqSo-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "6016 x 4016"
+    },
+    {
+      "src": "images/vincent-ledvina-a1SAq0v6AyY-unsplash.jpg",
+      "type": "image/jpg",
+      "sizes": "4991 x 3350"
     }
   ],
   "start_url": ".",

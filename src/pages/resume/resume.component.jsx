@@ -106,6 +106,7 @@ export default function Resume({ title }) {
             style={{ color: "rgb(97, 218, 251)", order: 11 }}
             className="icon"
             size="10x"
+            id="react-icon"
           />
         </Grid>
       </Grid>

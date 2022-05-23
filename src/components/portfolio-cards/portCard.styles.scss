@@ -21,6 +21,15 @@
     }
   }
 
+  .skeleton {
+    position: relative;
+    width: 260px;
+    height: 145px;
+    top: -55px;
+    left: auto;
+    z-index: 1;
+  }
+
   .proj-img-box {
     position: relative;
     width: 260px;
@@ -66,6 +75,18 @@
 
       .iconBtn {
         font-size: 36px;
+      }
+
+      #github {
+        &:hover {
+          color: #6e5494;
+        }
+      }
+
+      #deployed {
+        &:hover {
+          color: #67aaf9;
+        }
       }
     }
   }
