@@ -22,20 +22,14 @@ export default function AboutMe({ title }) {
         </Grid>
         <Grid item xs={12} sm={12} md={8}>
           <Typography paragraph className="paragraph">
-            Full Stack Web Developer with a background in CAD design and 3D
-            Printing manufacturing. Recently earned a certificate in Full Stack
-            Web Development Coding Bootcamp from the University of Denver, with
-            growing aspirations of a fresh career using newly acquired and
-            continuously developed skills in Javascript, jQuery, Node.js,
-            React.js, Express and other coding languages used in responsive web
-            design. During my time, I collaborated on several projects with
-            teammates to deliver a minimal viable project, with the most recent
-            being a MERN stack application. Impassioned by problem solving
-            coding challenges as a project team member to develop new and
-            innovative web applications. I excel in customer-input driven
-            design, organizing teams for effective work-flow, and fulfilling
-            deliverable deadlines of expected products during my professional
-            career in 3D printing medical device manufacturing.
+            Versatile Full Stack Developer with a background in CAD design and a
+            passion for web development. I bring strong skills in JavaScript,
+            jQuery, Node.js, React.js, and Express, among others. I've
+            collaborated on various projects, including several MERN stack
+            applications, honing my passion for solving coding challenges as
+            part of a dynamic team. My strengths lie in customer-driven design,
+            team organization, and meeting project deadlines. Eager to
+            contribute innovative solutions to the tech industry.
           </Typography>
         </Grid>
       </Grid>
