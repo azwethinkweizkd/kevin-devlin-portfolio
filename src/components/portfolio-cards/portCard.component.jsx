@@ -1,9 +1,7 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
 import { Box, Typography, IconButton, Skeleton } from "@mui/material/";
-
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WebIcon from "@mui/icons-material/Web";
 
@@ -36,10 +34,7 @@ export default function PortfolioCard({ project }) {
           <Skeleton variant="rectangle" animation="wave" className="skeleton" />
         ) : (
           <Box className="proj-img-box">
-            <img
-              src={process.env.PUBLIC_URL + image || image}
-              alt={projTitle}
-            />
+            <img src={image} alt={projTitle} />
           </Box>
         )}
         <Box className="content">

@@ -11,7 +11,7 @@
   {
     "projTitle": "Simple & Sinister Fitness Tracker",
     "image": "/images/samuel-girven-VJ2s0c20qCo-unsplash.jpg",
-    "href": "https://sim-and-sin-fit-track.herokuapp.com/",
+    "href": "https://fitness-tracker-kdev-052e33155554.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/SimpleAndSinisterTracker",
     "desc": "HTML/CSS/JS/MongoDB",
     "id": 2
@@ -19,7 +19,7 @@
   {
     "projTitle": "CodeTech ChitChat",
     "image": "/images/christin-hume-Hcfwew744z4-unsplash.jpg",
-    "href": "https://code-tech-chit-chat.herokuapp.com/",
+    "href": "https://code-tech-chit-chat-43037c862f24.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/codeTechChitChat",
     "desc": "HTML/Handlebars/CSS/Vanilla JS/SQL",
     "id": 3
@@ -51,7 +51,7 @@
   {
     "projTitle": "Note Taker",
     "image": "/images/david-travis-5bYxXawHOQg-unsplash.jpg",
-    "href": "https://express-js-note-taker-kd.herokuapp.com/",
+    "href": "https://note-taker-new-57aa3542a77b.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/Express.jsNoteTaker",
     "desc": "Express.js/HTML/CSS",
     "id": 7

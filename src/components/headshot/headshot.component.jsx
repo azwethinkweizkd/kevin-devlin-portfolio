@@ -2,7 +2,7 @@ import React from "react";
 
 import "./headshot.styles.scss";
 
-const me = process.env.PUBLIC_URL + "/images/professional-photo.jpg";
+import me from "../../assets/images/professional-photo.jpg";
 
 export default function Headshot() {
   return (
