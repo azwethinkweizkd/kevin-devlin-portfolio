@@ -2,7 +2,7 @@
   {
     "projTitle": "Adventure Time",
     "image": "/images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg",
-    "href": "https://adventure-time-with-friends.herokuapp.com/",
+    "href": "https://adventure-time-15767c6c2d86.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/adventure-time",
     "desc": "Full MERN Stack Application",
     "id": 1
@@ -27,7 +27,7 @@
   {
     "projTitle": "Kitchen Forager",
     "image": "/images/katie-smith-uQs1802D0CQ-unsplash.jpg",
-    "href": "https://kitchenforager.herokuapp.com/",
+    "href": "https://kitchen-forager-3c83ad8ed593.herokuapp.com/",
     "gh": "https://github.com/azwethinkweizkd/kitchenForager",
     "desc": "HTML/Handlebars/CSS/Vanilla JS/SQL",
     "id": 4
