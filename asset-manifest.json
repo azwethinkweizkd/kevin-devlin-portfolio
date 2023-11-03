@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1a5248f8.css",
-    "main.js": "/static/js/main.f544c5a9.js",
+    "main.js": "/static/js/main.aba840ec.js",
     "static/js/496.ed0038ff.chunk.js": "/static/js/496.ed0038ff.chunk.js",
-    "static/media/Kevin-Devlin-Web-Development-Resume.pdf": "/static/media/Kevin-Devlin-Web-Development-Resume.fac61487e60df3985b81.pdf",
+    "static/media/Kevin-Devlin-Web-Development-Resume.pdf": "/static/media/Kevin-Devlin-Web-Development-Resume.90014fcda29276442aa6.pdf",
+    "static/media/professional-photo.jpg": "/static/media/professional-photo.3730c2a60dd633de0358.jpg",
     "index.html": "/index.html",
     "main.1a5248f8.css.map": "/static/css/main.1a5248f8.css.map",
-    "main.f544c5a9.js.map": "/static/js/main.f544c5a9.js.map",
+    "main.aba840ec.js.map": "/static/js/main.aba840ec.js.map",
     "496.ed0038ff.chunk.js.map": "/static/js/496.ed0038ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a5248f8.css",
-    "static/js/main.f544c5a9.js"
+    "static/js/main.aba840ec.js"
   ]
 }
