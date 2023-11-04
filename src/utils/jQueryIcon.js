@@ -10,7 +10,7 @@ export default function JQueryIcon() {
       height="160"
       viewBox="-5 -5 128 128"
       className="icon"
-      style={{ color: "rgb(8, 104, 172)", order: 2 }}
+      style={{ color: "rgb(8, 104, 172)", order: 15 }}
     >
       <path
         fill="currentColor"

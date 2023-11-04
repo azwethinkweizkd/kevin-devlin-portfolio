@@ -11,17 +11,20 @@ import {
   faJsSquare,
   faSass,
   faReact,
-  faNodeJs,
+  faNode,
+  faAws,
   faGithubSquare,
   faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
+import AzureIcon from "../../utils/azureIcon";
 import JQueryIcon from "../../utils/jQueryIcon";
 import MySqlIcon from "../../utils/mySqlIcon";
 import MongoDbIcon from "../../utils/mongoDbIcon";
-
+import CSharpIcon from "../../utils/cSharpLogo";
 import resume from "../../utils/Kevin-Devlin-Web-Development-Resume.pdf";
 
 import "./resume.styles.scss";
+import ExpressIcon from "../../utils/expressIcon";
 
 export default function Resume({ title }) {
   useEffect(() => {
@@ -40,7 +43,7 @@ export default function Resume({ title }) {
           />
         </Grid>
         <Grid item data-aos="zoom-in-down">
-          <JQueryIcon />
+          <ExpressIcon />
         </Grid>
         <Grid item data-aos="zoom-in-down">
           <FontAwesomeIcon
@@ -52,7 +55,7 @@ export default function Resume({ title }) {
         </Grid>
         <Grid item data-aos="zoom-in-down">
           <FontAwesomeIcon
-            icon={faNodeJs}
+            icon={faNode}
             style={{ color: "rgb(131, 205, 41)", order: 4 }}
             className="icon"
             size="10x"
@@ -108,6 +111,27 @@ export default function Resume({ title }) {
             size="10x"
             id="react-icon"
           />
+        </Grid>
+      </Grid>
+      <Grid container className="grid">
+        <Grid item data-aos="zoom-in-down">
+          <CSharpIcon />
+        </Grid>
+        <Grid item data-aos="zoom-in-down">
+          <FontAwesomeIcon
+            icon={faAws}
+            style={{ color: "rgb(255, 153, 0)", order: 13 }}
+            className="icon"
+            size="10x"
+          />
+        </Grid>
+        <Grid item data-aos="zoom-in-down">
+          <AzureIcon />
+        </Grid>
+      </Grid>
+      <Grid container className="grid">
+        <Grid item data-aos="zoom-in-down">
+          <JQueryIcon />
         </Grid>
       </Grid>
       <Divider mt="5" className="fade-in" />
