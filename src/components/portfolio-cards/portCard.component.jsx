@@ -12,7 +12,7 @@ export default function PortfolioCard({ project }) {
 
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
-    Aos.init({ duration: 5000 });
+    Aos.init({ duration: 2500 });
   }, []);
 
   useLayoutEffect(() => {
