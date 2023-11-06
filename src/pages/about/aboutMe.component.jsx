@@ -24,11 +24,11 @@ export default function AboutMe({ title }) {
           <Typography paragraph className="paragraph">
             I'm a passionate Full Stack Web Developer with 2 years of experience
             under my belt. My toolkit includes React, JavaScript, C#, HTML, CSS,
-            Entity Framework Core, REST APIs, SQL, AWS, and Azure DevOps. Over
-            the past 2 years, I've been dedicated to maintaining Novus Home
-            Mortgage's internal application with React and EF Core as well as
-            developing a cosumer facing web application in Remix. My career
-            started with frontend technologies at Novus, and I swiftly
+            ASP.NET, Entity Framework Core, REST APIs, SQL, AWS, and Azure
+            DevOps. Over the past 2 years, I've been dedicated to maintaining
+            Novus Home Mortgage's internal application with React and EF Core as
+            well as developing a cosumer facing web application in Remix. My
+            career started with frontend technologies at Novus, and I swiftly
             transitioned into a full-stack role to collaborate more with
             projects, making me well-versed in Agile and DevOps practices.
             Before my web development journey, I worked as a Biomedical Design
